@@ -1,0 +1,16 @@
+*{
+    outline: red 1px solid;
+    font-family: 'inter', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+h2{
+    color: #C92071;
+    margin-left: 5px;
+}
+header figure{
+    width: auto;
+}
