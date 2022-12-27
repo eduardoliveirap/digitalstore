@@ -107,13 +107,15 @@ form div h4{
     
 }
 form div figure img{
-    display: flex;
-    height: 24px;
-    width: 24px;
+    
+    size: 24px 24px;
 }
 .alt{
     display: flex;
     justify-content: center;
     gap: 20px;
     
+}
+div div.tenis{
+    display: flex;
 }
