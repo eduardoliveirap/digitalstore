@@ -1,16 +1,119 @@
 *{
-    outline: red 1px solid;
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    /* outline: red 1px solid; */
+    box-sizing: border-box;
+}
+body{
+    background-color: #d5d6f9;
+    margin: 10px 0;
+}
+main div form{
+    background-color: #fff;
+    width: 40%;
+    padding-left: 100px; ;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 header{
+    width: 1440px;
+    height: 80%;
+    background-color: #fff;
+}
+div figure img{
+    width: 100%;
+}
+h1{
+    color: #c92071;
+    font-weight: 600;
+    font-size: 23.99px;
+    line-height: 29.03px;
+}
+h6{
+    font-weight: 700;
+    font-size: 32px;
+
+}
+h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+#crie{
+    font-weight: 700;
+    font-size: 32px;
+    align-self: flex-start;
+
+}
+#email{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+form{
+    background-color: white;
+    width: 300px; 
+    padding: 13px;
+    top:35%;
+    left: 25%;
+    transform:  translate(-50%, -50%); 
+    position: absolute;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
-    height: 80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
 }
-h2{
-    color: #C92071;
-    margin-left: 5px;
+ form label, form input{
+     display: block;
+     width: 100%;
+     margin-bottom: 10px;
+  }
+  form input{
+     height: 40px;
+     padding-left: 10px;
+     border: 1px solid #333;
+     border-radius: inherit;
+     border: none;
+     background-color: #f8f8f8;   
+
 }
-header figure{
-    width: auto;
+
+main div form input{
+    border-radius: 3px;
+}
+form button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+    height: 40px;
+    background-color:#c92071;
+    color: azure;
+    border: 0;
+    border-radius: inherit;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+form div h4{
+    
+    
+}
+form div figure img{
+    display: flex;
+    height: 24px;
+    width: 24px;
+}
+.alt{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
 }
