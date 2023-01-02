@@ -3,8 +3,11 @@
     /* outline: red 1px solid; */
     box-sizing: border-box;
 }
+html{
+    width: 100%;
+}
 body{
-    background-color: #d5d6f9;
+    background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
     margin: 10px 0;
 }
 main div form{
@@ -19,6 +22,7 @@ main div form{
     align-items: center;
     margin: 0;
     padding: 0;
+
 }
 header{
     width: 1440px;
@@ -62,7 +66,7 @@ form{
     left: 25%;
     transform:  translate(-50%, -50%); 
     position: absolute;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
