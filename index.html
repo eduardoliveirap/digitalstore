@@ -1,49 +1,113 @@
-<!DOCTYPE html>
+<!DOCTYPE html>.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Store</title>
+    <meta name="description" content="Uma página que você vai se apaixonar">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+
+    <title>Digital Store</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <figure>
-                <img src="images/logo.png" alt="logo">
-            </figure>
-            <h1>Digital Store</h1>
-        </div>
+    <header class="header">
+        <img class="header-imagem" src="imagens/Vector.svg" alt="logo da digital college, escola de capacitação profissional na area da tecnologia">
+        <p class="header-title">Digital Store</p>
     </header>
-    <main>
-        <div>
-            <form action="">
-                <label id="crie" for="">Crie sua conta</label>
-                <h4>Já possui uma conta? Entre <a href="">aqui.</a></h4>
-                <label id="email" for="">Email*</label>
-                <input type="text" name="Email" id="" placeholder="Insira seu email">
-                <button type="submit">Criar Conta</button>
-            <div class="alt">
-                    <h4>
-                        Ou faça login com
-                    </h4>
-                        
-                        <img src="images/gmail.png" alt="">
+    <main class="conteudo-principal">
+        
+              <form action="">
+    
+                <h1 class="h1-criar-conta">Crie sua Conta</h1>
+                <p class="entre-aqui">Ja possui conta? Entre 
+                <a class="aqui" href= "https://www.digitalcollege.com.br/formacao-full-stack/">
+                aqui</a>
+               
+            <div class="input-email">
+                <label class="email" for="email">Email*</label>  
+                <input type="Email" id="Email" name="id" placeholder = "Insira seu email"></h3>
+            
+            </div>
+           
+            
+             <button class="Button" type="submit" value="Submit">Criar Conta</button>
+          
+            
+                <span>ou faça login com
+                    <a href="https://www.google.com/intl/pt-BR/account/about/"><img src="imagens/gmail 1.png" style="max-width:100%;height:auto;"alt="icone do Email"></a>
+                    <a href="https://www.facebook.com/"><img src="imagens/logofacebook.png" alt="icone do facebook"></a>
+                </span>
+             
 
-                        <img src="images/Vector.png" alt="">
-                    
-                </div>
-            </form>
-        </div>
-        <div class="tenis">
+         </form>
+         
         
-            <!-- <img src="images/tenis-frente.png" alt="">
-            <img src="images/tenis-de-costa.png" alt=""> -->
-        
-    </div>
+        <figure>
+            <img class= "foot-left"src="imagens/imagem1.svg" alt="">
+            <img class="foot-right" src="imagens/imagem2.svg" alt="">
+        </figure>
+    
     </main>
+
+    <footer>
+        <div class="infor">
+            <div class="title-footer">
+                <img class="logo" src="imagens/logo_footer.svg" alt="imagem logo da digital college">
+                <h2>Digital Store</h2>
+                      
+            </div>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+            <figure class="redes-sociais">
+               <img class="figure-facebook" src="imagens/logo-face-footer.png" alt="rede social facebook">
+               <img class= "figure-intagran" src="imagens/insta.png" alt="rede social intagram">
+               <img class="figure-twitter" src="imagens/twitter.png" alt="rede social twitter">
+            </figure>
+
+
+        </div>
+       
+
+            <div class="informacao">    
+                    <ul class="topicos"> 
+                        <li><h4>Informação</h4></li>
+                        <li><a>Sobre Drip Store</a></li>
+                        <li><a>Segurança</a></li>
+                        <li><a>Wishlist</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Trabalhe conosco</a></li>
+                        <li><a>Meus Pedidos</a></li>
+                    </ul>
+            </div>
+
+            <div class="categoria">
+                
+                    <ul class="produtos">
+                        <h4>Categorias</h4>
+                        <li><a>Camisetas</a></li> 
+                        <li><a>Calças</a></li> 
+                        <li><a>Bonés</a></li> 
+                        <li><a>Headphones</a></li> 
+                        <li><a>Tênis</a></li> 
+                                        
+                    </ul>
+            </div>
+
+            <div class="contato">      
+                <h4>Contato</h4> 
+                Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161
+                <br>
+                <br>
+                (85) 3051-3411
+            </div> 
+
+            <p class="date">@ 2022 Digital College</p>
+
+    </footer>
+    
+
 </body>
 </html>
-

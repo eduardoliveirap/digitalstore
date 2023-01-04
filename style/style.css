@@ -1,125 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 *{
-    font-family: 'Inter', sans-serif;
-    /* outline: red 1px solid; */
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
 }
-html{
-    width: 100%;
-}
-body{
-    background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
-    margin: 10px 0;
-}
-main div form{
-    background-color: #fff;
-    width: 40%;
-    padding-left: 100px; ;
-}
-.header{
+
+.header {
     display: flex;
     flex-direction: row;
-    width: 20%;
     align-items: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: 0;
     margin: 0;
-    padding: 0;
-
 }
-header{
-    width: 1440px;
-    height: 80%;
-    background-color: #fff;
-}
-div figure img{
-    width: 100%;
-}
-h1{
-    color: #c92071;
+.header-title{
+    color: #C92071;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 600;
-    font-size: 23.99px;
-    line-height: 29.03px;
+    font-size: 24px;
+   
 }
-h6{
-    font-weight: 700;
-    font-size: 32px;
-
-}
-h4{
-    font-size: 16px;
-    font-weight: 400;
-}
-#crie{
-    font-weight: 700;
-    font-size: 32px;
-    align-self: flex-start;
-
-}
-#email{
-    font-size: 12px;
-    font-weight: 700;
-
-}
-form{
-    background-color: white;
-    width: 300px; 
-    padding: 13px;
-    top:35%;
-    left: 25%;
-    transform:  translate(-50%, -50%); 
-    position: absolute;
-    border-radius: 5px;
+.header-imagem {
+    height: 25px;
+    width: 25px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: flex-start;
-
+    
 }
- form label, form input{
-     display: block;
-     width: 100%;
-     margin-bottom: 10px;
-  }
-  form input{
-     height: 40px;
-     padding-left: 10px;
-     border: 1px solid #333;
-     border-radius: inherit;
-     border: none;
-     background-color: #f8f8f8;   
-
+.header .header-imagem{
+    margin-left: 100px;
+    margin-right: 5px;
 }
 
-main div form input{
-    border-radius: 3px;
+.conteudo-principal{ 
+    display: flex;
+    justify-content: flex-end;
+    background-color: #B5B6F2;
+    background-image: linear-gradient(#B5B6F2, #EFEFFF);
 }
-form button{
-    width: 100%;
+
+form{
+    
+    padding: 30px;
+    position: absolute;
+    width: 583px;
+    height: 399px;
+    left: 100px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+}
+.h1-criar-conta{
+    width: 520px;
+    margin-bottom: 20px;    
+    font-family: 'inter';
+    font-style: normal;
+    font: weight 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.entre-aqui{
+    margin-bottom: 30px;
+    width: 270px;
+    height:30px ;
+    font-family: 'inter';
+    font-style:normal ;
+    font-weight: 400;
     font-size: 16px;
-    font-weight: 600;
-    padding-top: 10px;
-    height: 40px;
-    background-color:#c92071;
-    color: azure;
-    border: 0;
-    border-radius: inherit;
-    margin: 0 auto;
-    text-align: center;
+    line-height: 28px;
+    color: #474747;
+    letter-spacing:0,75px;
+}
+.aqui{
+    color: #474747;
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: 1px #474747 solid;
+}
+.input-email label{
     display: block;
+    font-size: 12px;
+    line-height: 24px;
+
+}
+
+.input-email input{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #47474704; 
+    border: none;
+    
+
+}
+
+.email{
+    width: 110px;
+    height: 24px;
+    left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+button{
+    background: #C92071;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
     cursor: pointer;
+    border: none;
 }
-form div h4{
-    
-    
-}
-form div figure img{
-    
-    size: 24px 24px;
-}
-.alt{
+
+
+span{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
     
 }
-div div.tenis{
+
+span a {
+    margin-left: 30px;
+}
+
+.foot-right{
+    width: 300px;
+    height: 483px;
+    left: 1000px;
+    top: 156px;
+    background: url(pexels-melvin-buezo-2529148.png);
+ }
+
+
+.foot-left{
+    width: 280px;
+    height: 555px;
+    left: 1500px;
+    top: 417px;
+    margin-top: 100px;
+    background: url(pexels-melvin-buezo-2529148.png);
+}
+
+
+footer{
+    background: #1F1F1F;
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 454px;
+   
+}
+
+.title-footer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height: 44px;
+}
+
+
+.paragrafo-footer{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    order: 1;
+    margin-left: 8px;
+}
+
+.figure-facebook{
+   
+    width: 11px;
+    height: 20px;
+    left: 100px;
+    top: 269px;
+    margin-right: 35px;
+}
+.figure-instagram{
+   
+    width: 20px;
+    height: 20px;
+    left: 146px;
+    top: 269px;
+    margin-left: 30px;
+    
+}
+.figure-twitter{
+  
+    width: 20px;
+    height: 18.24px;
+    left: 202px;
+    top: 270px;
+    margin-left: 30px;
+}
+
+.logo {
+   
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    padding: 77px 100px 0px 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+footer .infor {
+    width: 310px;
+
+}
+
+footer .infor p{
+    line-height: 26px;
+    border: none;
+    text-align: initial;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    border-top: 1px solid #f8f8f8;
+    
+}
+ 
+
+.informacao,
+.categoria,
+.contato{
+    color: white;
+    width: 250px;
+    
+}
+
+ul{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    top: 0px;
+    font-family: 'inter';
+    line-height: 38px;
+    list-style: none;
+    
+    
+}
+.topicos{
+    margin-left: 205px;
+    width: 135px;
+    height: 230px;
+}
+.produtos{
+    margin-left: 100px;
+}
+
+.contato
+{
+    color: white;
+    margin-left: 50px;
+    
+}
+        
+
+.date{
+    color: white;
+    
+}
+.contato h4{
+    margin-bottom: 30px;
+}
+form span{
+    font-size: 16px;
+    font-weight: 400px;
 }
